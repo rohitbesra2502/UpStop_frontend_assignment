@@ -1,0 +1,68 @@
+.card-title{
+    color: #4B527E;
+}
+.work_icon_bgcolor{
+    background-color: lightgrey;
+    border: 0;
+}
+.rotate_shareIcon {
+    transform: rotate(-45deg);
+}
+
+/* new codes for new assessment */
+.assessment_wrapper{
+    width: 450px;
+    height: 250px;
+    border: 1px solid #4B527E;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+.math_assessment{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.assessment_job_date{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.job_date{
+    display: flex;
+    gap: 10px;
+}
+
+.icon_bg {
+    padding: 1rem;
+    background-color: #eeeeee;
+    border-radius: 0.5rem;
+}
+/* media queiries for responsiveness */
+@media (max-width: 768px) {
+    .mob_math_assessment{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mob_bag_part{
+        border: 1px solid red;
+    }
+    .mob_math_assessment_part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob_job_date_part{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        border: 1px solid red;
+        align-items: center;
+        justify-content: center;
+    }
+}

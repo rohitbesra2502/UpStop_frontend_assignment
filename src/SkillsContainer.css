@@ -1,0 +1,20 @@
+/* src/components/SkillsContainer.css */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .skill {
+    background-color: #e0e0e0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill-remove-btn {
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  

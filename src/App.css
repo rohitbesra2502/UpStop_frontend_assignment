@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+h6 {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.head_overview {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #4b527e;
+}
+h4 {
+  font-size: 1rem;
+}
+h3,
+h4,
+h6 {
+  color: #4b527e;
+}
+.mianhero {
+  background-color: #e8f3f29c;
+  font-family: "Poppins", sans-serif;
+}
+
+/* left side  */
+.assessment {
+  background-color: rgba(190, 232, 243, 0.582);
+  border-radius: 0.6rem;
+  border: 1.5px solid #2189ff;
+}
+.assessment h6 {
+  font-size: 0.75rem;
+  color: #2189ff;
+}
+
+.admin_btn {
+  width: 3rem;
+  text-align: center;
+  border-radius: 3rem;
+  border: 1px solid red;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffd3d3;
+}
+
+.share_rounded {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7a7a7a;
+  border-radius: 3rem;
+  justify-content: center;
+  padding: 0.35rem;
+}
+
+/* right side */
+.heading_myassessment {
+  color: #2189ff;
+}
+
+.assessment-overview-container {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.my_asmt_div {
+  border-bottom: 2px solid #2189ff;
+}
+.my_asmt {
+  color: #2189ff;
+}
+.cnt {
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #44b90e;
+}
+.left_part {
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.right_part {
+  background-color: #fff;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.inliner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inliner {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2b2a4c;
+  /* color: red; */
+  padding-right: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.heading_page {
+  border-right: 2px solid #d5e0df9c;
+}
+.heading_page h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.heading_my_assessment h2 {
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.my_assessment_heading {
+  font-weight: 500;
+  color: #3887be;
+}
+.icon_addition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 250px; */
+  flex-direction: column;
+  background-color: #eeeeee;
+  /* border: 1px solid #000; */
+  text-align: center;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+}
+.add_assessment_icon {
+  height: 1rem;
+  width: 1rem;
+
+  background-color: #ffff;
+}
+.icon_bg {
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+}
+.border-top row {
+  display: flex;
+  align-items: center;
+}
+
+.user_one {
+  background-color: peru;
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  border: 1px solid #7a7a7a;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.dash_border {
+  border: 0.5px dashed #7a7a7a;
+}
+
+.offcanvas {
+  display: none;
+}
+.mobile_admin_view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.total_purpose_mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile_none {
+    display: none;
+  }
+  .offcanvas {
+    display: block;
+  }
+  .left_part {
+    align-items: baseline;
+  }
+  .dashboard,
+  .assessment,
+  .Library,
+  .round_status {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .dashboard .dashboard_icon,
+  .assessment .assessment_icon,
+  .round_status_icon,
+  .Library .Library_icon {
+    padding-right: 0.5rem;
+  }
+  .mobile_admin_view {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .offcanvas.offcanvas-start {
+    width: 80%;
+  }
+  .mobile_inliner {
+    background-color: #fff;
+    padding: 1rem;
+  }
+  .mobile_inliner h2 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding-left: 0.4rem;
+  }
+  .top_header {
+    display: none;
+  }
+  .Overview_assessment {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .col-sm-11,
+  .col-sm-2 {
+    padding: 0rem;
+  }
+  .total_purpose_mobile {
+    display: block;
+  }
+  .hidden_mobile {
+    display: none;
+  }
+  .border-inliner {
+    display: flex;
+    align-items: center;
+  }
+  .border-inliner .border-right {
+    border-right: 1px solid #ccc;
+  }
+  .total_purpose_mobile{
+    padding-left: 0.6rem;
+  }
+  .total_candidates_box {
+    padding-left: 0.2rem !important;
+  }
+  .total_candidates_box h3{
+    font-size: 18px;
+  }
+  .col-4.ps-4{
+    padding-left: 0.45rem !important;
+    padding-right: 0.45rem !important;
+  }
+}
